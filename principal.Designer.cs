@@ -35,6 +35,8 @@
             this.lbl_user = new System.Windows.Forms.Label();
             this.lbl_password = new System.Windows.Forms.Label();
             this.lbl_login = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_user
@@ -99,11 +101,31 @@
             this.lbl_login.TabIndex = 6;
             this.lbl_login.Text = "Login";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(122, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "User: usuario";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(122, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Pass: usuario";
+            // 
             // principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(234, 211);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_login);
             this.Controls.Add(this.lbl_password);
             this.Controls.Add(this.lbl_user);
@@ -128,6 +150,8 @@
         private System.Windows.Forms.Label lbl_user;
         private System.Windows.Forms.Label lbl_password;
         private System.Windows.Forms.Label lbl_login;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
